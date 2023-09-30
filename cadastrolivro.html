@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+ <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/index.css">
+ </head>
+   <body>
+      <header>
+         <div class="row text-center">
+            <div class="col"><img class="img-thumbnail" src="./assest/logo.png" alt="logo da empresa"></div>
+            
+         </div>
+         <div >
+            <nav class="row nav-white">
+               <a class="col col-lg-2" href="./index.html">Página Inicial</a>
+               <a class="col col-lg-2" href="./cadastrolivro.html">Cadastrar</a>
+            </nav>
+         </div>
+      </header>
+
+      <div class="row justify-content-md-center">
+         <div class="col-sm-10 col-md-8 form">
+            <form class="row g-3">
+               <h2>Cadastrar Livro</h2>
+               <div class="mb-3">
+                  <label class="form-label">Titulo Livro</label>
+                   <input class="form-control" id="titulo" type="text" data-bs-toggle="tooltip"  data-bs-placement="right" data-bs-title="Input Titulo">
+               </div>
+
+               <div class="mb-3" id="data">
+                  <label class="form-label" >Data de Lançamento</label>
+                   <input class="form-control" id="date" type="date" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Input Data Lançamento">
+               </div>
+               <div class="mb-3">
+                  <label class="form-label" >Gênero</label>
+                  <select class="form-select" aria-label="Default select example">
+                     <option selected>Outros</option>
+                     <option value="1">Acadêmico/Cientifico</option>
+                     <option value="2">AutoAjuda</option>
+                     <option value="3">Biografia</option>
+                     <option value="4">Poesia</option>
+                     <option value="5">Romance</option>
+                     <option value="6">Ficção</option>
+                  </select>
+               </div>
+                <div class="mb-3 flex">
+                  <label class="form-check-label" for="exampleCheck1">Ebook</label>
+                  <input type="checkbox" id="ebook"class="form-check-input" id="exampleCheck1">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" >Preço</label>
+                  <input class="form-control" id="price" type="number">
+               </div>
+               <div class="mb-3 form-group">
+                  <label for="sinopse">Sinopse</label>
+                  <textarea class="form-control" id="sinopse" rows="10"></textarea>
+                </div>
+
+               <div class="col-12">
+                  <button id="oi" class="btn btn-primary" >Enviar</button>
+               </div>
+               <div id="liveAlert"></div>
+            </form>
+         </div>
+      </div>
+      
+      <footer class="footer">
+         <h4>Avaliação prática 1 - PPI - Gabriel Rezende Machado</h4>
+      </footer>
+      <script src="./js/index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ </body>
+</html>

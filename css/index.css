@@ -1,0 +1,83 @@
+@import url(./bootstrap.css);
+@import url(./bootstrap.rtl.css);
+@import url(./bootstrap.min.css);
+@import url(./bootstrap.rtl.min.css);
+
+body{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+header img{
+    max-width: 225px;
+    max-height: 225px;
+}
+
+img{
+    max-width: 125px;
+    max-height: 125px;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 0.5%;
+    background-color: #fff;
+    color: black;
+}
+
+.nav-white {
+    color: #000;      
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 1%;
+
+}
+
+.nav-white a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #f1e6e6e8;
+}
+
+.book{
+    
+    width: 70%;
+    padding: 2%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 16px;
+    
+}
+.dados{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.caixa-livro{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    margin-top: 3%;
+    font-size: 1rem;
+}
+
+.form{
+    font-size: 1.2rem;
+    padding: 3%;
+    color: black;
+    background-color: #f1e6e6;
+    margin-top: 50px;
+    margin-bottom: 10vh;
+}
